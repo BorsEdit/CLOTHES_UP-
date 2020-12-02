@@ -1,0 +1,185 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+.nav-link {
+	color: black;
+	font-weight: 600;
+}
+
+.nav-link:hover{
+	color: yellowgreen;
+	transition: 0.5s;
+}
+
+.navbar-brand{
+	color: black;
+	font-weight: 800;
+	font-size: 30px;
+}
+
+.navbar-brand:hover{
+	color: yellowgreen;
+	transition: 0.5s;
+}
+
+.carousel-caption {
+	position: absolute;
+	top: 60%;
+	transform: translateY(-80%);
+}
+
+.carousel-caption h1{
+	font-size: 45px;
+	font-weight: 400;
+	color: white;
+}
+
+.carousel-caption p{
+	font-weight: 600;
+}
+
+.btn0{
+	background-color: red;
+	height: 45px;
+	width: 130px;
+	color: white;
+	outline: none;
+	border: none;
+}
+
+.btn0:hover{
+	background-color: white;
+	color: red;
+	transition: 0.4s;
+}
+
+
+
+/* ----------------- */
+
+.container{
+	width: 100%;
+	margin-top: 10%;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+}
+
+.container h2{
+	background: yellowgreen;
+	color: #fff;
+	width: 200px;
+	font-size: 24px;
+	padding: 5px;
+	height: 40px;
+}
+
+.container h2:after{
+	content: '';
+	border-top: 40px solid yellowgreen;
+	border-right: 40px solid transparent;
+	position: relative;
+	left: 51px;
+	top: 35px;
+
+}
+
+
+.row{
+	margin-top: 30px;
+}
+
+img{
+	width: 100%;
+}
+
+.product-bottom .fas{
+	color: yellowgreen;
+	font-size: 13px;
+}
+
+.product-bottom .far{
+	color: yellowgreen;
+	font-size: 13px;
+}
+
+.product-bottom h4{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.product-bottom h5{
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+
+.overlay{
+	display: block;
+	opacity: 0;
+	position: absolute;
+	top: 10%;
+	margin-left: 0;
+	width: 70px;
+}
+
+.product-top:hover .overlay{
+	opacity: 1;
+	margin-left: 5%;
+	transition: 0.5s;
+}
+
+.overlay .fas{
+	cursor: pointer;
+	background-color: yellowgreen;
+	color: #000;
+	height: 30px;
+	width: 30px;
+	font-size: 15px;
+	padding: 7px;
+	margin: 5%;
+	margin-bottom: 5%;
+}
+
+.overlay .far{
+	cursor: pointer;
+	background-color: yellowgreen;
+	color: #000;
+	height: 30px;
+	width: 30px;
+	font-size: 15px;
+	padding: 7px;
+	margin: 5%;
+	margin-bottom: 5%;
+}
+
+.overlay .btn-secondary{
+	background: transparent !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+.contact input{
+ 	height: 50px;
+ 	width: 100%;
+ 	outline: none;
+ 	border: none;
+ 	color: gray;
+ 	background-color: white;
+ 	padding: 10px;
+ 	-webkit-box-shadow: 0px 2px 24px -8px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 24px -8px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 24px -8px rgba(0,0,0,0.75);
+ }
+ .btn4{
+ 	height: 45px;
+ 	width: 160px;
+ 	background-color: yellowgreen;
+ 	color: white;
+ 	outline: none;
+ 	border: none;
+ 	cursor: pointer;
+ 	display: inline-block;
+ }
